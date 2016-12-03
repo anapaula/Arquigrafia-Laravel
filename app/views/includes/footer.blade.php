@@ -35,6 +35,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
           <li><a href="{{ URL::to("/users/account") }}">Cadastrar-se</a></li>
           @endif
           <li><a href="{{ URL::to("/") }}/project">O projeto</a></li>
+		  <li><a href="{{ URL::to("/") }}/videos">Videos</a></li>
           <li><a href="{{ URL::to("/") }}/faq">FAQ</a></li>
 
          <!-- <li><script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'&'+'#'+'1'+'1'+'6'+';'+'o'+'&'+'#'+'5'+'8'+';'+

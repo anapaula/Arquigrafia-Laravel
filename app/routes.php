@@ -49,6 +49,7 @@ Route::get('/landing/{language?}', 'PagesController@landing');
 Route::get('/home', 'PagesController@home');
 Route::get('/panel', 'PagesController@panel');
 Route::get('/project', function() { return View::make('project'); });
+Route::get('/videos', function() { return View::make('videos'); });
 Route::get('/faq', function() { return View::make('faq'); });
 Route::get('/chancela', function() { return View::make('chancela'); });
 Route::get('/termos', function() { return View::make('termos'); });
